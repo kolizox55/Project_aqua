@@ -14,6 +14,12 @@
         </style>
     </head>
     <body>
+        <?php
+
+        include("../php_scripts/fetch_questions.php");        
+
+        ?>
+
         <div class="container">
             <div class="row justify-content-center">   
                 <div class="col-xs-12">
@@ -46,11 +52,9 @@
                 <div style="padding-top: 20px;" class="col-sm-8  justify-content-center">
                
 
-                  <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                 </p>
+                <p>  
+                    <?php echo $question1;  ?>
+                </p>
                 </div>
             </div> 
        
