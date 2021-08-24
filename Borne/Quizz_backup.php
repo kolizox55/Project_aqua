@@ -16,7 +16,7 @@
     <body>
         <?php
 
-        include("../php_scripts/fetch_questions.php");        
+        include("../php_scripts/fetch_data.php");        
 
         ?>
 
@@ -49,7 +49,7 @@
 
  <div  class="tabcontent" id="content1">
             <div class="row justify-content-center">
-                <div style="padding-top: 20px;" class="col-sm-8  justify-content-center">
+                <div style="padding-top: 20px;" class="col-sm-8  justify-content-center quizz_container">
                
 
                 <p>  
@@ -58,16 +58,16 @@
                 </div>
             </div> 
        
-        <div  class="containe">
+        <div  class="container">
             <div class="row justify-content-center">
-                <div class="col-6" >
+                <div class="col-4" >
                 <a href="#">
                     <div class="Rep_1" onclick="highlight(this)">
                         Réponse 1
                     </div>
                     </a>
             </div> 
-                <div class="col-6  ">
+                <div class="col-4  ">
                     <a href="#">
                         <div class="Rep_2" onclick="highlight(this)">
                         Réponse 2   
@@ -83,24 +83,22 @@
                                             <!--  CONTENT 2-->
             <div  class="tabcontent" id="content2">
                 <div class="row justify-content-center">
-                    <div style="padding-top: 20px;" class="col-sm-5  justify-content-center">
-                <p>  cont2Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    <div style="padding-top: 20px;" class="col-sm-5  justify-content-center quizz_container">
+                <p>  
+                <?php echo $question2;  ?>
                </p>
             </div>
                 </div>
       <div  class="container-fluid">
           <div class="row justify-content-center">
-              <div class="col-6 ">
+              <div class="col-4 ">
               <a href="#">
                   <div class="Rep_1" onclick="highlight(this)">
                       Réponse 1
                   </div>
                   </a>
           </div> 
-              <div class="col-6 ">
+              <div class="col-4 ">
                   <a href="#">
                       <div class="Rep_2" onclick="highlight(this)">
                       Réponse 2   
@@ -115,24 +113,21 @@
                                          <!--  CONTENT 3-->
     <div  class="tabcontent" id="content3">
                 <div class="row justify-content-center">
-                    <div style="padding-top: 20px;" class="col-sm-5  justify-content-center">
-                <p>  cont2Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    <div style="padding-top: 20px;" class="col-sm-5  justify-content-center quizz_container">
+                <p>  <?php echo $question3;  ?>
                </p>
             </div>
                 </div>
       <div  class="container">
           <div class="row justify-content-center">
-              <div class="col-6 ">
+              <div class="col-4 ">
               <a href="#">
                   <div class="Rep_1" onclick="highlight(this)">
                       Réponse 1
                   </div>
                   </a>
           </div> 
-              <div class="col-6 ">
+              <div class="col-4 ">
                   <a href="#">
                       <div class="Rep_2" onclick="highlight(this)">
                       Réponse 2   
@@ -148,24 +143,22 @@
                                     <!--  CONTENT 4-->
     <div  class="tabcontent" id="content4">
                 <div class="row justify-content-center">
-                    <div style="padding-top: 20px;" class="col-sm-5  justify-content-center">
-                <p>  cont2Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    <div style="padding-top: 20px;" class="col-sm-5  justify-content-center quizz_container">
+                <p>  
+                <?php echo $question4;  ?>
                </p>
             </div>
                 </div>
       <div  class="container">
           <div class="row justify-content-center">
-              <div class="col-6 ">
+              <div class="col-4 ">
               <a href="#">
                   <div class="Rep_1" onclick="highlight(this)">
                       Réponse 1
                   </div>
                   </a>
           </div> 
-              <div class="col-6 ">
+              <div class="col-4 ">
                   <a href="#">
                       <div class="Rep_2" onclick="highlight(this)">
                       Réponse 2   
@@ -181,24 +174,22 @@
                                      <!--  CONTENT 5-->
         <div  class="tabcontent" id="content5">
                 <div class="row justify-content-center">
-                    <div style="padding-top: 20px;" class="col-sm-5  justify-content-center">
-                <p>  cont2Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    <div style="padding-top: 20px;" class="col-sm-5  justify-content-center quizz_container">
+                <p>  
+                <?php echo $question5;  ?>
                </p>
             </div>
                 </div>
       <div  class="container">
           <div class="row justify-content-center">
-              <div class="col-6 ">
+              <div class="col-4 ">
               <a href="#">
                   <div class="Rep_1" onclick="highlight(this)">
                       Réponse 1
                   </div>
                   </a>
           </div> 
-              <div class="col-6 ">
+              <div class="col-4 ">
                   <a href="#">
                       <div class="Rep_2" onclick="highlight(this)">
                       Réponse 2   
@@ -214,12 +205,12 @@
             <div class="footer_sticky">
                
           
-                      <a href="info_g.html"><input type="image"  class="left_button" src="Buttons/Left.png"></a>
+                      <a href="info_g.php"><input type="image"  class="left_button" src="Buttons/Left.png"></a>
                 
-                <a href="Langues.html" class="Langue"> Langue </a>
+                <a href="Langues.php" class="Langue"> Langue </a>
                    
-                <a href="techniques.html"> <input type="image"  class="Home" src="Buttons/Home.png"/> </a>
-                <a href="Quizz_result.html"><input type="image"  class="right_button" src="Buttons/Right.png"></a>
+                <a href="techniques.php"> <input type="image"  class="Home" src="Buttons/Home.png"/> </a>
+                <a href="Quizz_result.php"><input type="image"  class="right_button" src="Buttons/Right.png"></a>
             
         </div>
             <script>

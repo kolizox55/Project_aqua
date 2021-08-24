@@ -300,14 +300,38 @@
       
                 
             </div>
-            <div class="col-md-5 offset-md-1 justify-content-center" style="margin-top:50px;text-align: left; ">
+            <div class="col-md-5 offset-md-1 justify-content-center right_cont" style="text-align: left; margin:auto;">
                 <p id="info1" >
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                     Donec varius varius nulla vel vulputate. Mauris tincidunt 
                     diam vel cursus pretium. Donec efficitur, elit vehicula 
                     venenatis congue, ex metus rutrum est, quis accumsan arcu 
                     lectus ut sapien. Sed sed hendrerit lorem. Nulla eget commodo orci. 
-                    <br><br>
+                    
+                    Ut bibendum mi tellus, eget condimentum 
+                    sem auctor nec. Nunc ultricies pharetra faucibus.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Donec varius varius nulla vel vulputate. Mauris tincidunt 
+                    diam vel cursus pretium. Donec efficitur, elit vehicula 
+                    venenatis congue, ex metus rutrum est, quis accumsan arcu 
+                    lectus ut sapien. Sed sed hendrerit lorem. Nulla eget commodo orci. 
+                    
+                    Ut bibendum mi tellus, eget condimentum 
+                    sem auctor nec. Nunc ultricies pharetra faucibus.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Donec varius varius nulla vel vulputate. Mauris tincidunt 
+                    diam vel cursus pretium. Donec efficitur, elit vehicula 
+                    venenatis congue, ex metus rutrum est, quis accumsan arcu 
+                    lectus ut sapien. Sed sed hendrerit lorem. Nulla eget commodo orci. 
+                    
+                    Ut bibendum mi tellus, eget condimentum 
+                    sem auctor nec. Nunc ultricies pharetra faucibus.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Donec varius varius nulla vel vulputate. Mauris tincidunt 
+                    diam vel cursus pretium. Donec efficitur, elit vehicula 
+                    venenatis congue, ex metus rutrum est, quis accumsan arcu 
+                    lectus ut sapien. Sed sed hendrerit lorem. Nulla eget commodo orci. 
+                    
                     Ut bibendum mi tellus, eget condimentum 
                     sem auctor nec. Nunc ultricies pharetra faucibus.
         

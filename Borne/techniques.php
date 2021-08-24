@@ -25,21 +25,12 @@
 
     
     <div class="footer_sticky">
-      <a href="info_g.html"><input type="image"  class="left_button" src="Buttons/Left.png"></a>
-      <a href="Langues.html" class="Langue"> Langue </a>
-      <a href="techniques.html"> <input type="image"  class="Home" src="Buttons/Home.png"/> </a>
-      <a href="Quizz_result.html"><input type="image"  class="right_button" src="Buttons/Right.png"></a>
+      <a href="info_g.php"><input type="image"  class="left_button" src="Buttons/Left.png"></a>
+      <a href="Langues.php" class="Langue"> Langue </a>
+      <a href="index.php"> <input type="image"  class="Home" src="Buttons/Home.png"/> </a>
+      <a href="info_g.php"><input type="image"  class="right_button" src="Buttons/Right.png"></a>
     </div>
   
-
-    <script type="text/javascript">
-      document.getElementById("langue").onclick = function () {
-          window.location.href = "Langues.html";
-      };
-
-      
-
-  </script>
 
   </body>
 </html>

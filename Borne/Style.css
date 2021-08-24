@@ -59,6 +59,7 @@ p{
     margin-top:200px;
 }
 .Rep_1{
+    margin-top: 20px;
     margin-left: auto;
     background-color:#08486C ;
     border-radius: 10px;
@@ -73,6 +74,7 @@ a:link, a:visited{
 
 
 .Rep_2{
+    margin-top: 20px;
     margin-right: auto;
    text-align: center;
     background-color:#08486C ;
@@ -90,6 +92,7 @@ a:link, a:visited{
     
    
 }
+
 .tabcontent{
     color: white;
 }
@@ -162,6 +165,19 @@ a:link, a:visited{
 
 
 @media screen and (max-width: 768px){
+
+    .Rep_1{
+        min-width: 100px;
+    }
+    .Rep_2{
+        min-width: 100px;
+    }
+    .right_cont{
+       
+        height: 120px;
+        max-width: 50px;
+        
+    }
 
 
     div.p{
@@ -733,5 +749,51 @@ p{
 }  
   
 .right_container::-webkit-scrollbar-thumb {
+    background-color: white;
+}
+
+.quizz_container{
+  
+    overflow:scroll;
+   
+   
+    
+    max-width: 50%;
+    height: 200px;
+    overflow-x: hidden;
+    margin: auto;
+    
+}
+
+.quizz_container::-webkit-scrollbar {
+    width: 6px;            
+}
+
+  .quizz_container::-webkit-scrollbar-track {
+    background: rgb(255,255,255,0.2);   
+     
+}  
+  
+.quizz_container::-webkit-scrollbar-thumb {
+    background-color: white;
+}
+
+.right_cont{
+    overflow:scroll;    
+    max-width: 500px;
+    max-height: 300px;
+    overflow-x: hidden;
+    margin: auto;
+}
+.right_cont::-webkit-scrollbar {
+    width: 6px;            
+}
+
+  .right_cont::-webkit-scrollbar-track {
+    background: rgb(255,255,255,0.2);   
+     
+}  
+  
+.right_cont::-webkit-scrollbar-thumb {
     background-color: white;
 }

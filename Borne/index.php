@@ -8,7 +8,7 @@
   </head>
 
   <body class="Body_style">
-      <a href="Langues.html" class="temp_bg"> </a>
+      <a href="Langues.php" class="temp_bg"> </a>
   </body>
 
 </html>

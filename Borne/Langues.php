@@ -12,15 +12,15 @@
  
 
    <div class="container m-auto " >
-    <div class="row">
+      <div class="row">
         <div class="col-4">
-       <a href="index.html" ><div class="arabe"><img style="width: 20%; border-radius: 30px;border-color:white; border: solid;" src="Images/flag_arabe.png" />Arabe</div></a>
+       <a href="index.php" ><div class="arabe"><img style="width: 20%; border-radius: 30px;border-color:white; border: solid;" src="Images/flag_arabe.png" />Arabe</div></a>
        </div>
        <div class="col-4">
        <a href="#" ><div class="berbere"><img style="width: 20%; border-radius: 30px;border-color:white; border: solid;" src="Images/flag_berbere.png" />Berbère</div></a>
       </div> 
       <div class="col-4">
-      <a href="Listing.html" ><div class="francais"><img style="width: 20%; border-radius: 30px;border-color:white; border: solid;" src="Images/flag_france.png" />Français</div></a>
+      <a href="techniques.php" ><div class="francais"><img style="width: 20%; border-radius: 30px;border-color:white; border: solid;" src="Images/flag_france.png" />Français</div></a>
      </div> 
     </div> 
     <div class="row" style="margin-top: 50px;">
@@ -41,21 +41,16 @@
                
         
             
-      <a href="info_g.html"><input type="image"  class="left_button" src="Buttons/Left.png"></a>
+      <a href="info_g.php"><input type="image"  class="left_button" src="Buttons/Left.png"></a>
       
-      <a href="Langues.html" class="Langue"> Langue </a>
+      <a href="Langues.php" class="Langue"> Langue </a>
          
-      <a href="techniques.html"> <input type="image"  class="Home" src="Buttons/Home.png"/> </a>
-      <a href="Quizz_result.html"><input type="image"  class="right_button" src="Buttons/Right.png"></a>
+      <a href="techniques.php"> <input type="image"  class="Home" src="Buttons/Home.png"/> </a>
+      <a href="techniques.php"><input type="image"  class="right_button" src="Buttons/Right.png"></a>
  
   </footer>
 
 
 
-    <script type="text/javascript">
-      document.getElementById("fr").onclick = function () {
-          window.location.href = "techniques.html";
-      };
-    </script>
   </body>
 </html>

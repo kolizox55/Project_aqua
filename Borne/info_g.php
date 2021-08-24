@@ -22,7 +22,7 @@
 <div class="container" style="margin:auto; color:white;">
   <div class="row">
       <div class="col">
-        <a href="Informations.html"><div id="info1" style="
+        <a href="Informations.php"><div id="info1" style="
         padding: 10px;
         background: rgb(8, 72, 108,0.6);
         border-radius:20px; 
@@ -56,7 +56,7 @@
         max-width: 100%;
         min-width:200px;
         ">LE SAVIEZ-VOUS ?<br></div></a>
-        <a href="#"><div id="info4" style="
+        <a href="Quizz_backup.php"><div id="info4" style="
         font-size: 2.5vw;
         background: rgb(8, 72, 108,0.6);
         padding: 10px;
@@ -80,12 +80,12 @@
       <div class="container">
           <div class="row">
           
-          <a href="info_g.html"><input type="image"  class="left_button" src="Buttons/Left.png"></a>
+          <a href="info_g.php"><input type="image"  class="left_button" src="Buttons/Left.png"></a>
           
-          <a href="Langues.html" class="Langue"> Langue </a>
+          <a href="Langues.php" class="Langue"> Langue </a>
              
-          <a href="techniques.html"> <input type="image"  class="Home" src="Buttons/Home.png"/> </a>
-          <a href="Quizz_backup.html"><input type="image"  class="right_button" src="Buttons/Right.png"></a>
+          <a href="techniques.php"> <input type="image"  class="Home" src="Buttons/Home.png"/> </a>
+          <a href="Quizz_backup.php"><input type="image"  class="right_button" src="Buttons/Right.png"></a>
       </div>
        </div>
       </footer>
