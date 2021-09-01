@@ -143,7 +143,7 @@ margin: auto;">
             </div>
             <div class="col-6" >
                 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta saepe impedit hic ut. Soluta, tenetur id facilis illo libero amet itaque aspernatur praesentium quis asperiores repudiandae numquam velit fugit obcaecati?</p>
+                <p class="quizz_size"> amet itaque aspernatur praesentium quis asperiores repudiandae numquam velit fugit obcaecati?</p>
 
             </div>
         </div>
@@ -166,7 +166,7 @@ margin: auto;">
 
             </div>
             <div class="col-6" style="">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quo doloremque temporibus nihil praesentium quisquam ipsa nemo qui nostrum nisi voluptates placeat delectus, est id consectetur ipsum illum, earum dolores.</p>
+                <p class="quizz_size">loremque temporibus nihil praesentium quisquam ipsa nemo qui nostrum nisi voluptates placeat delectus, est id consectetur ipsum illum, earum dolores.</p>
 
             </div>
         </div>
@@ -191,7 +191,7 @@ margin: auto;">
            </div>
 
             <div class="col-6" style="">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid consequatur quaerat harum ut odio dolore illo sunt eaque. Impedit illo facilis debitis accusantium. Atque ex recusandae ducimus, illum ea impedit!</p>
+                <p class="quizz_size"> odio dolore illo sunt eaque. Impedit illo facilis debitis accusantium. Atque ex recusandae ducimus, illum ea impedit!</p>
             </div>
         </div>
     </div>
@@ -215,7 +215,7 @@ margin: auto;">
    
 
             <div class="col-6" style="">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt iure, voluptatem perspiciatis excepturi minus blanditiis sapiente, cum in incidunt voluptatibus, obcaecati consequatur accusamus nihil eius voluptas. Dolorem veritatis omnis iure.<p> 
+                <p class="quizz_size">Lorem ipsum doloexcepturi minus blanditiis sapientconsequatur accusamus nihil eius voluptas. Dolorem veritatis omnis iure.<p> 
                
 
             </div>

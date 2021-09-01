@@ -21,7 +21,7 @@
   <div class="row">
     <div class="col" style="margin: 0;">
       <img  class="iimg1" src="Images/image8.png" />
-      <div >
+      <div class="siize">
            <strong>NOM SCIENTIFIQUE </strong>: <?php echo $nom_scientifique; ?> <br>
            <strong>NOM FRANCAIS </strong>: <?php echo $nom_francais ;  ?><br>
           <strong>NOM ARABE </strong>: <?php echo $nom_arabe; ?><br>
@@ -35,7 +35,7 @@
     <div class="col">
       <div class="col right_container" style="text-align: left;">
         <img class="iimg" src="Images/carte.png">
-        <p id="info1" style="margin: 0;">
+        <p class="siize" style="margin: 0;">
         <?php
           echo $description;
           ?>

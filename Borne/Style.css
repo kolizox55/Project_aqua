@@ -163,9 +163,19 @@ a:link, a:visited{
     height: 170px;
 }
 
+.right_cont{
+    height: 400px;
+    min-width: 250px;
+}
 
 @media screen and (max-width: 768px){
-
+    .quizz_size{
+        font-size: 5px;
+    }
+ 
+    .container{
+        margin: 0;
+    }
     .Rep_1{
         min-width: 100px;
     }
@@ -176,6 +186,7 @@ a:link, a:visited{
        
         height: 120px;
         max-width: 50px;
+       
         
     }
 
@@ -205,7 +216,7 @@ a:link, a:visited{
         margin-top: 10px;
         margin-left: 100px;
         margin-right: 40px;
-        font-size: 2vw;
+        font-size: 12px;
     }
     p#info1,p#info2,p#info3,
     p#info4,p#info5,p#info6{
@@ -214,6 +225,9 @@ a:link, a:visited{
     
 }
 
+.quizz_size{
+    font-size: 1.5vw;
+}
 
 
 
@@ -681,7 +695,7 @@ a:link, a:visited{
     
 }
 p{
-    font-size: 1.2vw;
+ 
 }
 .Rep_desc3{
     position: absolute;
@@ -755,10 +769,7 @@ p{
 .quizz_container{
   
     overflow:scroll;
-   
-   
-    
-    max-width: 50%;
+    max-width: 100%;
     height: 200px;
     overflow-x: hidden;
     margin: auto;

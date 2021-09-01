@@ -7,7 +7,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" type="text/css" href="Style.css">
     <title>Aquarium</title>
   </head>
   <body>
@@ -185,7 +185,7 @@
     </div>
 -->
 
-    <div class="container" style="margin:0; margin:auto;">
+    <div class="container" style="margin:auto">
         <div class="row justify-content-center">
             <div class="col-4 " style="padding-top: 50px;">
                 
@@ -300,14 +300,13 @@
       
                 
             </div>
-            <div class="col-md-5 offset-md-1 justify-content-center right_cont" style="text-align: left; margin:auto;">
-                <p id="info1" >
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            <div class="col-md-6 offset-md-1 justify-content-center right_cont" style=" margin-top: 10px;text-align: left; ">
+                <p id="info1" style="">
+                     ipsum dolor sit amet, consectetur adipiscing elit. 
                     Donec varius varius nulla vel vulputate. Mauris tincidunt 
                     diam vel cursus pretium. Donec efficitur, elit vehicula 
                     venenatis congue, ex metus rutrum est, quis accumsan arcu 
                     lectus ut sapien. Sed sed hendrerit lorem. Nulla eget commodo orci. 
-                    
                     Ut bibendum mi tellus, eget condimentum 
                     sem auctor nec. Nunc ultricies pharetra faucibus.
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -433,12 +432,12 @@
                
         
             
-            <a href="info_g.html"><input type="image"  class="left_button" src="Buttons/Left.png"></a>
+            <a href="info_g.php"><input type="image"  class="left_button" src="Buttons/Left.png"></a>
             
-            <a href="Langues.html" class="Langue"> Langue </a>
+            <a href="Langues.php" class="Langue"> Langue </a>
                
-            <a href="techniques.html"> <input type="image"  class="Home" src="Buttons/Home.png"/> </a>
-            <a href="Quizz_result.html"><input type="image"  class="right_button" src="Buttons/Right.png"></a>
+            <a href="techniques.php"> <input type="image"  class="Home" src="Buttons/Home.png"/> </a>
+            <a href="Quizz_result.php"><input type="image"  class="right_button" src="Buttons/Right.png"></a>
        
         </footer>
      

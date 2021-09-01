@@ -67,9 +67,6 @@ p{
     max-width: 50%;
     
 }
-a:link, a:visited{
-    color:white;
-}
 
 
 .Rep_2{
@@ -90,6 +87,14 @@ a:link, a:visited{
     
    
 }
+
+
+a:link, a:visited{
+    color:white;
+}
+
+
+
 .tabcontent{
     color: white;
 }
@@ -162,14 +167,25 @@ a:link, a:visited{
 
 
 @media screen and (max-width: 768px){
-
+    .iimg1{
+        width: 200px;
+    }
+    .iimg{
+        width: 200px;
+    }
+    .siize{
+        font-size: 10px;
+    }
+    .right_container{
+        max-height: 250px;
+        
+    
+}
 
     div.p{
         font-size: 30px ;
     }
-    .iimg1{
-        
-    }
+   
     .red,.green{
         max-width: 15px;
     }
@@ -240,7 +256,8 @@ a:link, a:visited{
 .num4:hover,
 .num5:hover{
     
-        border: solid;
+     
+    
         border-color:white ;
     
 
@@ -709,7 +726,9 @@ p{
     margin: auto;
     
 }
-
+.siize{
+    font-size: 12px;
+}
 .images_container::-webkit-scrollbar {
     width: 6px;            
 }
